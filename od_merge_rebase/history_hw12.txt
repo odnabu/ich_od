@@ -1,0 +1,46 @@
+  409  27-01 07:28  source ~/.bashrc
+  410  27-01 07:29  pwd
+  411  27-01 07:29  ls -l
+  412  27-01 07:37  git clone git@github.com:odnabu/od_merge_rebase.git
+  413  27-01 07:44  ls -l
+  414  27-01 07:45  cd od_merge_rebase/
+  415  27-01 07:45  git status
+  416  27-01 07:46  git branch
+  417  27-01 14:52  git checkout -b feature
+  418  27-01 14:52  git status
+  419  27-01 14:53  ls -la
+  421  27-01 14:54  vim .gitignore 
+  422  27-01 15:12  cat .gitignore 
+  423  27-01 15:14  touch test.od
+  424  27-01 15:14  ls -l
+  425  27-01 15:15  vim README.md 
+  426  27-01 15:17  cat README.md 
+  427  27-01 15:20  git status
+  428  27-01 15:21  git add -A
+  429  27-01 15:22  git status
+  430  27-01 15:24  git commit -m "Add .gitignore, README.md by Home Task 12"
+  431  27-01 15:24  git status
+  432  27-01 15:24  git log --stat
+  433  27-01 15:33  git push origin feature
+  434  27-01 15:33  git status
+  435  27-01 15:44  git commit --amend
+  436  27-01 16:17  source ~/.bashrc
+  437  27-01 16:17  ls
+  438  27-01 16:17  cd od_merge_rebase/
+  439  27-01 16:18  ls -la
+  440  27-01 16:19  git commit --amend
+  441  27-01 16:21  git status
+  443  27-01 16:24  git log --stat
+  444  27-01 16:28  git log --all --graph --oneline
+  451  27-01 16:41  git branch
+  452  27-01 16:45  git checkout main
+  454  27-01 16:46  git log --all --graph --oneline
+  455  27-01 16:46  git status
+  456  27-01 16:47  git merge feature
+  457  27-01 16:54  git log --all --graph --oneline
+  458  27-01 16:55  пше ыефегы
+  459  27-01 16:55  git status
+  460  27-01 16:55  git push origin main
+  461  27-01 16:56  git log --all --graph --oneline
+  462  27-01 17:02  history | tail -n 100
+  463  27-01 17:03  history | tail -n 100 > history_hw12.txt
