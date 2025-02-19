@@ -1,0 +1,15 @@
+ 1000  cd /opt/111124-ptm/olga/
+ 1001  ls
+ 1002  vim task_OLGA.sh 
+ 1003  crontab -e
+ 1004  ls -l
+ 1006  touch history_hw13
+ 1017  ./task_OLGA.sh 
+ 1018  vim task_OLGA.sh 
+ 1019  ./task_OLGA.sh 
+ 1020  ls -l
+ 1126  crontab -e
+ 1127  tar -cf archive_od_hw13.tar *_28*
+ 1128  ls -l
+ 1129  mv history_hw13 history_od_hw13 
+ 1130  ls -l
